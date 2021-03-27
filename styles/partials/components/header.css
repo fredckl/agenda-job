@@ -1,0 +1,4 @@
+.main-header {
+  @apply h-20 flex flex-row items-center justify-center px-2 font-header shadow;
+  background-color: rgba(255, 255, 255, 0.8);
+}
