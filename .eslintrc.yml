@@ -27,4 +27,5 @@ rules:
     - 1
     - ignore:
         - children
+        - className
   react/react-in-jsx-scope: 'off'
