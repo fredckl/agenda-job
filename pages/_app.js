@@ -1,6 +1,6 @@
 import '../styles/globals.css';
 import PropTypes from 'prop-types';
-import SwitchLayout from '../layout';
+import SwitchLayout from '../layouts';
 
 function MyApp({ Component, pageProps, router }) {
   return <SwitchLayout router={router}>
