@@ -10,7 +10,7 @@ const Login = () => {
           <h1 className="text-center text-2xl">Identifiez-vous</h1>
         </div>
         <InputText label="Email" className="mb-2"/>
-        <InputText label="Mot de passe"/>
+        <InputText label="Mot de passe" inputProps={{disabled: true, value: 'frfrfrfr'}}/>
 
         <div className="lost-password my-1">
           <p className="text-sm">Vous avez perdu votre mot de passe ?</p>

@@ -1,0 +1,7 @@
+.input-text {
+  @apply rounded bg-gray-200 focus:bg-white border-transparent w-full focus:border-gray-500 focus:ring-0 block;
+
+  &[disabled] {
+    @apply opacity-50;
+  }
+}

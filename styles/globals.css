@@ -3,4 +3,6 @@
 
 @import './partials/common.css';
 @import './partials/components/header.css';
+@import './partials/components/input-text.css';
+
 @import 'tailwindcss/utilities';
