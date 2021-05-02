@@ -5,7 +5,6 @@ import { PropTypes } from 'prop-types';
 const Message = ({ message }) => <p className="text-sm text-red-500">{message}</p>;
 
 const FormErrorMessage = ({ errors, name }) => {
-  console.log(errors);
   return (
     <ErrorMessage
       errors={errors}

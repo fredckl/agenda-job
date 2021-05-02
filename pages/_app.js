@@ -1,11 +1,16 @@
 import '../styles/globals.css';
 import PropTypes from 'prop-types';
 import SwitchLayout from '../layouts';
-
+import { RawIntlProvider } from 'react-intl';
+import { intl } from '../config'
 function MyApp({ Component, pageProps, router }) {
-  return <SwitchLayout router={router}>
-    <Component {...pageProps} />
-  </SwitchLayout>;
+  return (
+    <SwitchLayout router={router}>
+      <RawIntlProvider value={intl}>
+        <Component {...pageProps} />
+      </RawIntlProvider>
+    </SwitchLayout>
+  );
 }
 
 MyApp.propTypes = {

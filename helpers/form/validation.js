@@ -1,23 +1,30 @@
 import * as EmailValidator from 'email-validator';
+import { getLocaleMsg } from '../locale';
 
 export const ruleRequired = {
-  required: 'Ce champ est obligatoire'
+  required: getLocaleMsg('ruleRequired')
 }
 
 export const ruleEmail = {
-  validate: v => EmailValidator.validate(v) || 'Adresse e-mail non valide'
+  validate: v => EmailValidator.validate(v) || getLocaleMsg('ruleEmail')
 }
 
 export const ruleMaxLength = max => ({
   maxLength: {
     value: max,
-    message: `${max} caractères maximum sont autorisé`
+    message: getLocaleMsg(
+      'ruleMaxLength',
+      { max }
+    )
   }
 });
 
 export const ruleMinLength = min => ({
   minLength: {
     value: min,
-    message: `${min} caractères minimum sont requis`
+    message: getLocaleMsg(
+      'ruleMinLength',
+      { min }
+    )
   }
 })

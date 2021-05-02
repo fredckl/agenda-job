@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { forwardRef } from 'react';
 import { FormErrorMessage } from '.';
 
-const InputText = forwardRef(({
+const Input = forwardRef(({
   contrainerClassName,
   inputClassName,
   label,
@@ -16,7 +16,6 @@ const InputText = forwardRef(({
 }, ref) => {
   const contrainerClassnames = classNames('block', contrainerClassName);
   const inputClassnames = classNames('input-text', inputClassName);
-  console.log('errors', errors);
   return (
     <div className={contrainerClassnames}>
       <label htmlFor={`input-${name}`}>{label}</label>
@@ -28,27 +27,28 @@ const InputText = forwardRef(({
           value={value || ''}
           onChange={e => onChange(e.target.value)}
           {...restProps} />
-          {errors && (
-            <FormErrorMessage errors={errors} name={name}/>
-          )}
+        {errors && (
+          <FormErrorMessage errors={errors} name={name} />
+        )}
       </div>
     </div>
   );
 });
-InputText.displayName = 'InputText';
+Input.displayName = 'InputText';
 
-InputText.defaultProps = {
+Input.defaultProps = {
   type: 'text',
 };
 
-InputText.propTypes = {
+Input.propTypes = {
   label: PropTypes.string.isRequired,
   contrainerClassName: PropTypes.string,
   inputClassName: PropTypes.string,
   type: PropTypes.string,
   name: PropTypes.string,
+  errors: PropTypes.object,
   value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   onChange: PropTypes.func.isRequired
 };
 
-export default InputText;
+export default Input;

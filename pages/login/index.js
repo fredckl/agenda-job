@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, InputText } from '../../components';
+import { Button, Input } from '../../components';
 import Link from 'next/link';
 import { Controller, useForm } from 'react-hook-form';
 import { ruleEmail, ruleMinLength, ruleRequired } from '../../helpers/form/validation';
@@ -31,7 +31,7 @@ const Login = () => {
             control={control}
             name="email"
             render={({ field, formState }) => (
-              <InputText
+              <Input
                 label="Email"
                 contrainerClassName="mb-2"
                 errors={formState.errors}
@@ -45,7 +45,7 @@ const Login = () => {
             control={control}
             name="password"
             render={({ field, formState }) => (
-              <InputText
+              <Input
                 label="Mot de passe"
                 errors={formState.errors}
                 {...field}

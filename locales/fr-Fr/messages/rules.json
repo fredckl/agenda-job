@@ -1,0 +1,6 @@
+{
+  "ruleRequired": "Ce champ est obligatoire",
+  "ruleEmail": "Adresse e-mail non valide",
+  "ruleMinLength": "{min} caractères minimum sont requis",
+  "ruleMaxLength": "{max} caractères maximum sont autorisé"
+}
