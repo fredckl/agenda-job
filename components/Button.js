@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-const Button = ({label, htmlType, ...restProps}) => {
+const Button = ({ label, htmlType, ...restProps }) => {
   return (
     <button
       className="bg-gray-200 text-bg-500 py-1 px-2 focus:ring-0 rounded uppercase hover:bg-gray-200 hover:text-gray-500"
