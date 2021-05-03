@@ -1,18 +1,18 @@
 import * as EmailValidator from 'email-validator';
-import { getLocaleMsg } from '../locale';
+import { i18n } from '../../config';
 
 export const ruleRequired = {
-  required: getLocaleMsg('ruleRequired')
+  required: i18n.t('ruleRequired')
 }
 
 export const ruleEmail = {
-  validate: v => EmailValidator.validate(v) || getLocaleMsg('ruleEmail')
+  validate: v => EmailValidator.validate(v) || i18n.t('ruleEmail')
 }
 
 export const ruleMaxLength = max => ({
   maxLength: {
     value: max,
-    message: getLocaleMsg(
+    message: i18n.t(
       'ruleMaxLength',
       { max }
     )
@@ -22,7 +22,7 @@ export const ruleMaxLength = max => ({
 export const ruleMinLength = min => ({
   minLength: {
     value: min,
-    message: getLocaleMsg(
+    message: i18n.t(
       'ruleMinLength',
       { min }
     )

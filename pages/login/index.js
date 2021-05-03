@@ -3,12 +3,14 @@ import { Button, Input } from '../../components';
 import Link from 'next/link';
 import { Controller, useForm } from 'react-hook-form';
 import { ruleEmail, ruleMinLength, ruleRequired } from '../../helpers/form/validation';
+import { useTranslation } from 'react-i18next';
 
 const defaultValues = {
   email: null,
   password: null
 };
 const Login = () => {
+  const { t } = useTranslation();
   const { control, handleSubmit } = useForm({
     defaultValues
   });
@@ -25,7 +27,7 @@ const Login = () => {
           method="POST"
         >
           <div className="mb-5">
-            <h1 className="text-center text-2xl">Identifiez-vous</h1>
+            <h1 className="text-center text-2xl">{t('authLogin')}</h1>
           </div>
           <Controller
             control={control}
@@ -55,12 +57,12 @@ const Login = () => {
           />
 
           <div className="my-1 flex justify-between items-center mt-5">
-            <Link href="/">Retour à l’accueil</Link>
-            <Button label="connexion" />
+            <Link href="/">{t('goHome')}</Link>
+            <Button label="Connexion" />
           </div>
         </form>
         <div className="lost-password my-1 mt-5">
-          <p className="text-sm text-gray-500">Vous avez perdu votre mot de passe ?</p>
+          <p className="text-sm text-gray-500">{t('lostPassword')}</p>
         </div>
       </div>
     </div>

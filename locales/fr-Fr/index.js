@@ -1,5 +1,9 @@
 import rules from './messages/rules.json';
+import page from './messages/page.json';
 
-export default {
-  ...rules
-};
+export default ({
+  translation: {
+    ...rules,
+    ...page
+  }
+});
