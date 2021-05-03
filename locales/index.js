@@ -1,4 +1,4 @@
-import fr from './fr-Fr';
+import fr from './fr-FR';
 
 export default {
   fr
