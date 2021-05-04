@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Dév Full-Stack",
+    "location": "Lausanne",
+    "company": {
+      "name": "Gamma",
+      "contactFullName": "Jean-Marc Storf",
+      "email": "jm-storf@agenda-job.test",
+      "mobilePhoneNumber": "+217840127"
+    },
+    "descrition": "Apptitude c’est la rencontre entre l’ingénierie logicielle et le design. Notre agence amène des compétences pointues à la fois sur les aspects stratégiques, techniques et ergonomiques pour transformer les idées de nos clients et partenaires en produits digitaux élégants et efficaces. Le travail chez Apptitude se caractérise par une démarche collaborative et centrée sur les utilisateurs finaux. L’agence cultive l’intelligence collective que ce soit en interne ou avec leurs clients",
+    "postUrl": "https://www.linkedin.com/jobs/search/?alertAction=viewjobs&f_TPR=a1619984766-&keywords=D%C3%A9veloppeur%20front-end&savedSearchId=1379653973&searchAlertRefId=51b96fe1-9f42-428f-82d6-338904d18d80",
+    "createdAt": "2021-05-04T04:52:17.301Z",
+    "isDirectContact": true
+  },
+  {
+    "id": "2",
+    "title": "Observability - JavaScript Engineer",
+    "location": "Lausanne",
+    "company": {
+      "name": "NeoJ",
+      "contactFullName": "Stefan Tulle",
+      "email": "s.tull@agenda-job.test",
+      "mobilePhoneNumber": "+33123456789"
+    },
+    "descrition": "Elastic is a search company built on a free and open heritage. Anyone can use Elastic products and solutions to get started quickly and frictionlessly. Elastic offers three solutions for enterprise search, observability, and security, built on one technology stack that can be deployed anywhere. From finding documents to monitoring infrastructure to hunting for threats, Elastic makes data usable in real time and at scale. Thousands of organizations worldwide, including Cisco, eBay, Goldman Sachs, Microsoft, The Mayo Clinic, NASA, The New York Times, Wikipedia, and Verizon, use Elastic to power mission-critical systems. Founded in 2012, Elastic is a distributed company with Elasticians around the globe and is publicly traded on the NYSE under the symbol ESTC. Learn more at elastic.co.",
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=2515333020&f_TPR=a1619984766-&geoId=103917634&keywords=d%C3%A9veloppeur%20front-end&location=Yverdon-les-Bains%2C%20Vaud%2C%20Suisse",
+    "createdAt": "2021-05-04T04:52:17.301Z",
+    "isDirectContact": false
+  },
+  {
+    "id": "3",
+    "title": "React Native Developer – Full-time, Remote",
+    "location": "Lausanne - Full remote",
+    "company": {
+      "name": "Micheal Page",
+      "contactFullName": "Albert Boutillon",
+      "email": "a.boutillon@agenda-job.test",
+      "mobilePhoneNumber": "+33123456789"
+    },
+    "descrition": "Freelance work is defining the careers of today's developers in exciting new ways. If you're passionate about working flexibly with leading Fortune 500 brands and innovative Silicon Valley startups, Toptal could be a great fit for your next career shift.",
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=2515333020&f_TPR=a1619984766-&geoId=103917634&keywords=d%C3%A9veloppeur%20front-end&location=Yverdon-les-Bains%2C%20Vaud%2C%20Suisse",
+    "createdAt": "2021-05-04T04:52:17.301Z",
+    "isDirectContact": false
+  },
+  {
+    "id": "4",
+    "title": "Frontend Developer in Bern",
+    "location": "Bern",
+    "company": {
+      "name": "TieTalent",
+      "contactFullName": "Robert Tissot",
+      "email": "test@agenda-job.test",
+      "mobilePhoneNumber": "+33123456789"
+    },
+    "descrition": "About the companyOur hiring company is an innovative SME active within the deep tech software & manufacturing industry. They created a job offer for a Frontend Software Engineer to integrate into their teams in Bern, Switzerland location.Your tasksConceptualise great frontend designs with UX designersYour profileLanguage skills: German (Good knowledge, B1) and English (fluent, C1)LocationThis career opportunity is based in Bern, Switzerland",
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=2532027919&f_TPR=a1619984766-&geoId=104229378&keywords=d%C3%A9veloppeur%20front-end&location=Lausanne%2C%20Vaud%2C%20Suisse",
+    "createdAt": "2021-05-04T04:52:17.301Z",
+    "isDirectContact": false
+  }
+]
